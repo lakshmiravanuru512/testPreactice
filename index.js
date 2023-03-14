@@ -30,16 +30,26 @@ const Header=()=>{
 const RestaurentCard=()=>{
   return(
     <div className="card">
-      <img alt="logo" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/6f0945b8b18d9f4241dd1cd9a70e23d7"/>
-      <h2>Burger King</h2>
-      <h3>4.4</h3>
+      <img alt="logo" src="https://th.bing.com/th/id/OIP.lvEdf-uOFukFJ2dRR9_2pgHaEK?pid=ImgDet&rs=1"/>
+      <h2>Name: Burger King</h2>
+      <h3>Location: Bangalore</h3>
+      <h3>Rating: 4.4</h3>
     </div>
   )
 }
 
 const Body=()=>{
   return(
-    <div>
+    <div className="res-cart">
+      <RestaurentCard/>
+      <RestaurentCard/>
+      <RestaurentCard/>
+      <RestaurentCard/>
+      <RestaurentCard/>
+      <RestaurentCard/>
+      <RestaurentCard/>
+      <RestaurentCard/>
+      <RestaurentCard/>
       <RestaurentCard/>
     </div>
   )
